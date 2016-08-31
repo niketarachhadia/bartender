@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pirate-Bartender</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<!-- Responsive viewport tag, tells small screens that it's responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Normalize.css, a cross-browser reset file -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/grid.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<main>
+	<div class="row">
+    <div class="col-12">
+      <div class="box heading">
+        <h1>Pirate Bartender</h1>
+        <h3>Select your preferences:</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="box questions">
+        <ul id="questions">	
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="box questions">
+        <button id="make-drink">Make Drink</button>
+        <p id="drink"></p>
+      </div>
+    </div>
+  </div>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/model.js"></script>
+	<script type="text/javascript" src="./js/view.js"></script>
+	<script type="text/javascript" src="./js/controller.js"></script>
+	<!-- <script type="text/javascript" src="./app.js"></script> -->
+</body>
+</html>
